@@ -22,7 +22,7 @@ To follow the logic and reasoning for the steps outlined below, please refer to 
 Collaboration between influencers/YouTubers is a prominent strategy to increase popularity, but it's not always mutually beneficial. **Cannibalization can cause unintended harm**, in which a host channel's popularity drops significantly after collaborating with a guest. Predicting cannibalization beforehand helps avoid harmful collaborations that would in turn compromise a YouTuber's channel popularity and value.
 
 ### WHAT TO DO - Task Description
-Our task is a 3 class classification problem given past data of host and guest channels.
+Our task is a 3-class classification problem given past data of host and guest channels.
 
 We want to predict whether a given featured video is
 - `Cannibalized`: The views of host’s next k videos dropped θ
