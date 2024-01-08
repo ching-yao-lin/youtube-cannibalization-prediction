@@ -2,7 +2,7 @@
 ---
 This project is centered on predicting the cannibalization effect of featured videos on YouTube.
 
-It presents the work of my Master's thesis at M.B.A in Information Management, National Taiwan University (#1 National): *“Is Your Guest an Ally or an Enemy? Predicting Cannibalization Effects for Featured Videos on Social Media Platforms”*
+It presents the work of my Master's thesis for my Master's degree in Information Management, National Taiwan University (#1 National): *“Is Your Guest an Ally or an Enemy? Predicting Cannibalization Effects for Featured Videos on Social Media Platforms”*
 
 ### Skills used
 * **PyTorch** - Built a **deep learning** model to solve a business-related research problem
