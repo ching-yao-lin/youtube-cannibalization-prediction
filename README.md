@@ -6,7 +6,7 @@ It represents my Master's thesis for Information Management at National Taiwan U
 
 ### Skills used
 * **PyTorch** - Built a deep learning model to solve a business-related research problem
-  * Natural Language Processing (NLP)** - Leveraged BERT to exploit text features
+  * Natural Language Processing (NLP) - Leveraged BERT to exploit text features
   * Image Processing - Encoded thumbnail images for augmented features
 * **NumPy, Pandas, Matplotlib** - Extensive data preparation, cleaning, and visualization
 * **Sklearn** - Machine learning techiniques such as data encoding and model evaluation
