@@ -2,7 +2,9 @@
 ---
 This project focuses on **predicting the cannibalization effect of featured YouTube videos** resulting from collaborations.
 
-It represents my Master's thesis for Information Management at National Taiwan University (#1 National). The thesis title is: *“Is Your Guest an Ally or an Enemy? Predicting Cannibalization Effects for Featured Videos on Social Media Platforms”*
+This work represents my Master's thesis for Information Management at National Taiwan University (Ranked #1 National). The thesis title is: *“Is Your Guest an Ally or an Enemy? Predicting Cannibalization Effects for Featured Videos on Social Media Platforms”*
+
+Please consult the the `Full_Presentation.pdf` file, the exact file utilized during my thesis defense presentation, for a comprehensive understanding of the outlined steps' logic and reasoning.
 
 ### Skills used
 * **PyTorch** - Built a deep learning model to solve a business-related research problem
@@ -14,9 +16,7 @@ It represents my Master's thesis for Information Management at National Taiwan U
 
 ## Overview
 
-This section is only meant to offer a concise, high-level overview with simplified details.
-
-For a comprehensive understanding of the outlined steps' logic and reasoning, please consult the the `Full_Presentation.pdf` file, the exact file utilized during my thesis defense presentation.
+This section is only meant to offer a concise, high-level overview with simplified details. Please consult the the `Full_Presentation.pdf` file if more details are needed.
 
 ### WHY IT MATTERS - Problem Statement
 Collaboration between influencers/YouTubers is a prominent strategy to increase popularity, but it's not always mutually beneficial. **Cannibalization can cause unintended harm**, in which a host channel's popularity drops significantly after collaborating with a guest. **Predicting cannibalization beforehand helps avoid harmful collaborations** that would in turn compromise a YouTuber's channel popularity and value.
