@@ -44,7 +44,7 @@ The model architecture is shown in the following. It was implemented using the p
 * Classifier: Utilizes host and guest data to generate a probability distribution for each class
 
 ### RESULT - Model Evaluation
-**The proposed model (CIIE) outperforms all benchmarks across most metrics**. Despite the severe class imbalance in the dataset, it is impressive that this model not only excelled in macro averages but also demonstrated superiority in handling minority classes like `cannibalized` and `boosted`.
+**The proposed model (CIIE) outperforms all benchmarks across most metrics**. CIIE have demonstrated **superiority in handling minority classes like `cannibalized` and `boosted`**, on top of the macro averages, despite the severe class imbalance in the dataset, making it **the best model**.
 
 ![image](https://github.com/ching-yao-lin/youtube-cannibalization-prediction/assets/45042477/64bf362e-6a99-4dc7-ad52-285926c8517e)
 
