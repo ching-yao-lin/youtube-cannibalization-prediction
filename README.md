@@ -1,14 +1,16 @@
 # YouTube Cannibalization Prediction Project
----
-This project focuses on **predicting the cannibalization effect of featured YouTube videos** resulting from collaborations.
 
-This work represents my Master's thesis for Information Management at National Taiwan University (Ranked #1 National). The thesis title is: *“Is Your Guest an Ally or an Enemy? Predicting Cannibalization Effects for Featured Videos on Social Media Platforms”*
+This project focuses on **predicting the "cannibalization effect" of featured YouTube videos** (YouTuber collaborations).
+
+<img width="1643" height="719" alt="image" src="https://github.com/user-attachments/assets/34c9c39f-1c28-46bc-9603-f4dea17e575a" />
+
+This work represents my Master's thesis for Information Management at National Taiwan University (Ranked #1 National). The thesis title is: __*“Is Your Guest an Ally or an Enemy? Predicting Cannibalization Effects for Featured Videos on Social Media Platforms”*__
 
 Please consult the the `Full_Presentation.pdf` file, the exact file utilized during my thesis defense presentation, for a comprehensive understanding of the outlined steps' logic and reasoning.
 
 ### Skills used
 * **PyTorch** - Built a deep learning model to solve a business-related research problem
-  * Natural Language Processing (NLP) - Leveraged BERT to exploit text features
+  * Natural Language Processing (NLP) - Leveraged SOTA models to exploit text features
   * Image Processing - Encoded thumbnail images for augmented features
 * **NumPy, Pandas, Matplotlib** - Extensive data preparation, cleaning, and visualization
 * **Sklearn** - Machine learning techiniques such as data encoding and model evaluation
@@ -24,10 +26,13 @@ Collaboration between influencers/YouTubers is a prominent strategy to increase 
 ### WHAT TO DO - Task Description
 Our task is a 3-class classification problem given past data of host and guest channels.
 
+<img width="1766" height="963" alt="image" src="https://github.com/user-attachments/assets/be4aab96-b071-4313-9dc1-f7dc4abddbd9" />
+<img width="1068" height="337" alt="image" src="https://github.com/user-attachments/assets/874c0540-0a8a-4547-959a-9e6fdfcafe4d" />
+
 We want to predict whether a given featured video is
-- `Cannibalized`: The views of host’s next $k$ videos dropped $θ$
-- `Boosted`: The views of host’s next $k$ videos rose $θ$
-- `Unaffected`: The views of host’s next $k$ videos did not change over $θ$
+- `Cannibalized`: The views of host’s next $k$ videos dropped $θ$ (%)
+- `Boosted`: The views of host’s next $k$ videos rose $θ$ (%)
+- `Unaffected`: The views of host’s next $k$ videos did not change over $θ$ (%)
 
 given the below:
 - Channel features from both sides (host and guests)
@@ -47,6 +52,15 @@ The model architecture is shown in the following. It was implemented using the p
 **The proposed model (CIIE) outperforms all benchmarks across most metrics**. CIIE have demonstrated **superiority in handling minority classes like `cannibalized` and `boosted`**, on top of the macro averages, despite the severe class imbalance in the dataset, making it **the best model**.
 
 ![image](https://github.com/ching-yao-lin/youtube-cannibalization-prediction/assets/45042477/64bf362e-6a99-4dc7-ad52-285926c8517e)
+
+---
+
+### DATASET
+I scraped the YouTube API myself using the the Python code presented in `1_DataScraping.ipynb`.
+
+Here is a quick overview of the collected data.
+
+<img width="1826" height="811" alt="image" src="https://github.com/user-attachments/assets/ed1f3518-5de5-4b45-94a2-f7c792f8cebf" />
 
 ---
 
